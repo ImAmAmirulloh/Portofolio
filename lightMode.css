@@ -1,0 +1,88 @@
+/* Coloring */
+.lightMode header,
+.lightMode .headA4 label svg,
+.lightMode #bar:checked ~ .headA3 {
+  background-color: #eee;
+}
+.lightMode .headA1 button {
+  box-shadow: 0 0 0.2rem 0.1rem #aaa;
+}
+.lightMode .headA1 button svg .lamp {
+  d: path("M 6.35 7.8 Q 7.8 6 8 5 Q 8.2 3.8 7.3 2.9 Q 5 1 2.7 2.9 Q 1.8 3.8 2 5 Q 2.2 6 3.65 7.8");
+  stroke: #ffb;
+  stroke-width: 0.3;
+  fill: #ff0;
+}
+.lightMode .headA1 button svg .shineLamp {
+  d: path("M 6.985 8.58 Q 8.58 6.6 8.9 5 Q 9.02 3.42 8.33 2.58 Q 5 -0.5 1.67 2.58 Q 0.98 3.42 1.1 5 Q 1.42 6.6 3.015 8.58");
+  stroke-dasharray: 1.2;
+  stroke: #ff0;
+  stroke-width: 1;
+  fill: none;
+}
+
+.lightMode .headA2 h1:hover {
+  color: #60b7f4;
+}
+.lightMode .headA2 h1:hover {
+  text-shadow: 0 0 2px #333;
+}
+
+.lightMode .headA3 ul li:hover {
+  outline: 2px solid #60b7f4;
+}
+
+.lightMode .headA4 label svg path {
+  d: path("M 0.5 0.5 L 4.5 0.5 M 0.5 2.5 L 4.5 2.5 M 0.5 4.5 L 4.5 4.5");
+  stroke-linecap: round;
+  stroke-width: 1;
+  stroke: #000;
+}
+.lightMode #bar:checked ~ .headA4 label svg path {
+  d: path("M 0.5 0.5 L 2.5 2.5 4.5 0.5 M 0.5 2.5 L 2.5 4.5 4.5 2.5");
+  fill: none;
+  stroke: #60b7f4;
+  stroke-linejoin: round;
+}
+
+.lightMode .bg-1 {
+  background-color: #60b7f4;
+}
+.lightMode .bg-2 {
+  background-color: #f8f8f8;
+}
+
+.lightMode h1,
+.lightMode h2,
+.lightMode h5,
+.lightMode p,
+.lightMode a,
+.lightMode span {
+  color: #000;
+}
+
+.lightMode #skill .sCon .scLevel {
+  box-shadow: 0 0 0.2rem 0.1rem #e9e9e9;
+}
+
+.lightMode #skill .sCon .scLevel .sclValue {
+  background-color: #f9f9f9;
+  outline: 0.1rem solid #e9e9e9;
+}
+
+.lightMode #contact .cCon .ccIcon svg path,
+.lightMode #contact .cCon .ccIcon svg rect,
+.lightMode #contact .cCon .ccIcon svg circle {
+  fill: #60b7f4;
+  stroke: #000;
+}
+/* /Coloring */
+
+.lightMode #skill .sCon .scLevel .sclv1:hover,
+.lightMode #skill .sCon .scLevel .sclv2:hover,
+.lightMode #skill .sCon .scLevel .sclv3:hover,
+.lightMode #skill .sCon .scLevel .sclv4:hover,
+.lightMode #skill .sCon .scLevel .sclv5:hover,
+.lightMode #skill .sCon .scLevel .sclv6:hover {
+  outline-style: inset;
+}
