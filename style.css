@@ -261,7 +261,7 @@ section {
 
 #contact .cCon {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 #contact .cCon .ccIcon svg {
   max-width: 20%;
@@ -271,7 +271,7 @@ section {
   stroke-width: 2px;
 }
 #contact .cCon span {
-  font-size: 10px;
+  font-size: 18px;
 }
 /* /Section */
 
