@@ -270,6 +270,9 @@ section {
 #contact .cCon .ccIcon svg path, rect, circle {
   stroke-width: 2px;
 }
+#contact .cCon span {
+  font-size: 10px;
+}
 /* /Section */
 
 /* Footer */
